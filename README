@@ -1,4 +1,4 @@
-glog
+base glog,modify for lyp study!
 ====
 
 Leveled execution logs for Go.
