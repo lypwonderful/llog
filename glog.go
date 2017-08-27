@@ -401,6 +401,7 @@ type flushSyncWriter interface {
 	errorLog:   "ERROR",
 	fatalLog:   "FATAL",*/
 func Init(infolev int32, stderrlev string) bool {
+	flag.Parse()
 	//logPath
 	if *logDir == "" {
 		*logDir = "./"

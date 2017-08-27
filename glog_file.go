@@ -97,6 +97,7 @@ func logName(t time.Time) (name, link string) {
 
 var onceLogDirs sync.Once
 
+// SetLogPath ...
 func SetLogPath(logPath string) {
 	t := time.Now()
 	createLogDirs(logPath)
